@@ -2,7 +2,7 @@
 
 This project explores the use of machine learning approaches to predict human thermal comfort more accurately than traditional models such as the Predicted Mean Vote (PMV) or Adaptive Comfort models. It leverages the ASHRAE Global Thermal Comfort Database II (100k+ entries) and applies modern data science methods to identify the key drivers of human comfort in built environments.
 
-🎯 ## Objectives
+## 🎯 Objectives
 
 Evaluate the performance of multiple ML models (Logistic Regression, SVM, Random Forest, XGBoost, Deep Neural Networks) for predicting thermal sensation.
 
@@ -12,7 +12,7 @@ Optimize model performance through hyperparameter tuning.
 
 Analyze feature importance to understand which environmental, personal, and contextual factors most influence thermal comfort.
 
-📊 ## Dataset
+## 📊 Dataset
 
 Source: ASHRAE Global Thermal Comfort Database II
 
@@ -26,7 +26,7 @@ Contextual: season, building type, cooling strategy, Köppen climate classificat
 
 Target: Thermal sensation votes on a 7-point ASHRAE scale (-3 = Cold to +3 = Hot).
 
-🛠️ ## Methods
+## 🛠️ Methods
 
 Preprocessing: Missing data imputation, feature pruning, and normalization.
 
@@ -46,7 +46,7 @@ Deep Neural Network (Keras/TensorFlow)
 
 Evaluation: Accuracy, Precision, Recall, F1-score, Confusion Matrices.
 
-🚀 ## Results
+## 🚀 Results
 
 Baseline Logistic Regression: 23% accuracy.
 
@@ -60,7 +60,7 @@ XGBoost emphasized contextual/geographical factors (climate classification).
 
 Both strategies highlight that thermal comfort depends on both immediate environment and broader context.
 
-🌍 ## Impact
+## 🌍 Impact
 
 Demonstrates that machine learning outperforms traditional comfort models.
 
